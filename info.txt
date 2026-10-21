@@ -1,0 +1,341 @@
+Informatii generale despre discipline:
+======================================
+
+
+Utilizarea sistemelor de operare (USO), CTI anul 1,
+Instrumente si tehnici de baza in informatica (ITBI), ID anul 1:
+===============================================================
+
+Continut disciplina:
+ - generalitati despre sistemele de operare;
+ - operare si programare in C sub Linux;
+   principalele capitole de programare:
+     utilizatori si grupuri, fisiere si directoare, semnale,
+     procese, tuburi, scripting bash.
+
+Materiale didactice:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+   folderul 'so_s18feb2012';
+ - folderul 'adaos/USO_SO_SOL' (aici se gaseste inclusiv suportul
+    pentru cursul de USO/ITBI, versiunea curenta este 'uso_j13ian2022.pdf');
+ - materiale suplimentare transmise pe parcursul semestrului.
+Atentie ca pe parcursul semestrului materialele pot fi actualizate
+ si se vor transmite versiunile actualizate.
+
+Notare:
+ - se da o proba scrisa, unde se obtine un punctaj S si se rezolva
+  doua probleme de laborator (programe), pentru care se vor obtine
+  respectiv punctajele P1, P2; se mai da un punctaj din oficiu Of;
+  aceste sarcini nu sunt toate obligatorii, prin lipsa punctajele
+  aferente au o valoare implicita, a se vedea mai jos;
+ - proba scrisa este cu materialele la vedere, dar numai in forma
+    scrisa, si se dau numai problme; pentru rezolvarea problemelor
+    va fi suficienta doar informatia din materialele scrise de mine;
+ - problemele de laborator se aleg din suportul de curs, capitolul
+    'Teme de laborator', aflat la sfarsit;
+   o problema trebuie sa fie din sectiunile 'Utilizatori si grupuri'
+    sau 'Fisiere, directoare' (punctajul P1);
+   o problema trebuie sa fie din sectiunile 'Procese, semnale, tuburi'
+    sau 'Scripting bash' (punctajul P2);
+ - nota finala se calculeaza astfel:
+  Notam:
+  OF = punctele din oficiu, in numar de 2;
+  S  = punctele la proba scrisa, in intervalul [0, 4], prin lipsa este 0;
+  P1 = punctele la prima problema, in intervalul [0, 2], prin lipsa este 0;
+  P2 = punctele la a doua problema, in intervalul [0, 2], prin lipsa este 0;
+  F = nota finala, care se trece in catalog.
+  Conditia de promovare este: OF + S + P1 + P2 >= 5.
+  Regula de calcul a notei finale este:
+     F = rotunjire(OF + S + P1 + P2)
+   unde rotunjirea in sus se face de la pragul 0.5.
+  Daca nota finala rezultata este < 4, in catalog se trece 4.
+  Daca lipsesc toate componentele S, P1, P2, in catalog se trece absenta.
+
+
+Sisteme de operare (SO), CTI anii 2, 3,
+Sisteme de operare (SO), ID anul 2:
+====================================
+
+Continut disciplina:
+ - concepte generale ale sistemelor de operare;
+ - Linux: capitole de programare neacoperite la cursul de USO/ITBI:
+   1. Procese si threaduri, biblioteca pthread.
+   2. Instrumente de comunicare si sincronizare intre procese:
+       segmente de memorie partajate, semafoare, cozi de mesaje, etc.
+   3. Interfata avansata in mod text, biblioteca ncurses.
+   4. Scripting bash.
+
+Materiale didactice:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+   folderul 'so_s18feb2012' (acesta contine si suportul de curs pentru
+   conceptele generale ale SO, in subfolderul 'curs');
+ - folderul 'adaos/USO_SO_SOL' (contine inclusiv suportul pentru cursul de
+   USO/ITBI, pentru cunostintele de programare in C sub Linux predate in
+   anul 1, si suportul pentru capitole de programare neacoperite la cursul
+   de USO/ITBI, 'so_adaos_d14ian2024.txt');
+ - materiale suplimentare transmise pe parcursul semestrului.
+Atentie ca pe parcursul semestrului materialele pot fi actualizate
+ si se vor transmite versiunile actualizate.
+
+Notare:
+ - se da o proba scrisa, unde se obtine un punctaj S;
+ - se rezolva:
+   -- fie doua probleme de laborator (programe), pentru care se
+       vor obtine respectiv punctajele P1, P2 (varianta 1),
+   -- fie o problema de laborator (program), pentru care se
+       va obtine punctajul P (varianta 2);
+ - se mai da un punctaj din oficiu Of;
+ - sarcinile de mai sus nu sunt toate obligatorii, prin lipsa
+  punctajele aferente au o valoare implicita, a se vedea mai jos;
+ - proba scrisa este cu materialele la vedere, dar numai in forma
+    scrisa, si se dau numai problme; pentru rezolvarea problemelor
+    va fi suficienta doar informatia din materialele scrise de mine;
+ - problemele de laborator se aleg din lista 'adaos/USO_SO_SOL/teme_so1.txt':
+   -- in varianta 1:
+     o problema trebuie sa fie din sectiunile 1 ('Procese si thread-uri')
+      sau 2 ('Sincronizare') si pentru ea se va obtine punctajul P1;
+     o problema trebuie sa fie din sectiunile 3 ('Interfata ncurses')
+      sau 4 ('Scripting bash') si pentru ea se va obtine punctajul P2;
+   -- in varianta 2:
+     problema trebuie sa fie din sectiunea 5 ('Probleme mixte') si pentru ea
+      se va obtine punctajul P;
+   (existenta celor doua variante pentru laborator este motivata de faptul ca
+    in lista 'teme_so1.txt' sunt probleme care acopera mai multe capitole, de
+    exemplu, procese, thread-uri, sincronizare, dar si biblioteca ncurses);
+ - nota finala se calculeaza astfel:
+  Notam:
+  Of = punctele din oficiu, in numar de 2;
+  S  = punctele la proba scrisa, in intervalul [0, 4], prin lipsa este 0;
+  P1 = punctele la prima problema (in varianta 1), in intervalul [0, 2],
+        prin lipsa este 0;
+  P2 = punctele la a doua problema (in varianta 1), in intervalul [0, 2],
+        prin lipsa este 0;
+  P  = punctele la problema (in varianta 2), in intervalul [0, 4],
+        prin lipsa este 0;
+  F = nota finala, care se trece in catalog.
+  Nota finala se calculeaza dupa regula:
+  -- in varianta 1: F = rotunjire(Of + S + P1 + P2)
+  -- in varianta 2: F = rotunjire(Of + S + P)
+    (unde rotunjirea in sus se face de la pragul 0.5).
+  Conditia de promovare este: F >= 5.
+  Daca nota finala rezultata este < 4, in catalog se trece 4.
+  Daca lipsesc toate componentele S, P1, P2, P, in catalog se trece absenta.
+
+
+Arhitectura sistemelor de calcul (ASC), ID anul 1:
+==================================================
+
+Continut disciplina:
+ - performanta calculatoarelor, aritmetica calculatoarelor,
+   logica calculatoarelor si circuite logice, arhitectura MIPS;
+ - programare in limbajul de asamblare MIPS.
+
+Materiale didactice:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+   folderul 'ac_ma10feb2015';
+ - folderul 'adaos/ASC';
+ - materiale suplimentare transmise pe parcursul semestrului.
+Suportul de curs va fi combinatia intre 'asc_curs_10feb2015.pdf'
+(din arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip'
+folderul 'ac_ma10feb2015/asc_curs') si materialele din arhiva
+'asc_procesoare_mips_id2020.zip' (din folderul 'adaos/ASC').
+Suportul de laborator sunt fisierele '_mips1b.txt', '_mips2b.txt',
+'_mips3c.txt' (din arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+folderul 'ac_ma10feb2015/asm/mips').
+Atentie ca pe parcursul semestrului materialele pot fi actualizate
+ si se vor transmite versiunile actualizate.
+
+Notare:
+ - se da o proba scrisa, unde se obtine un punctaj S si se rezolva
+  doua probleme de laborator (programe), pentru care se vor obtine
+  respectiv punctajele P1, P2; se mai da un punctaj din oficiu OF;
+  aceste sarcini nu sunt toate obligatorii, prin lipsa punctajele
+  aferente au o valoare implicita, a se vedea mai jos;
+ - proba scrisa este cu materialele la vedere, dar numai in forma
+    scrisa, si se dau numai problme; pentru rezolvarea problemelor
+    va fi suficienta doar informatia din materialele scrise de mine;
+ - problemele de laborator se aleg din materialele de laborator (listele
+    de teme aflate la sfarsitul acestora);
+   o problema trebuie sa fie din lectia II, fisierul '_mips2b.txt' (punctajul P1);
+   o problema trebuie sa fie din lectia III, fisierul '_mips3c.txt' (punctajul P2);
+ - nota finala se calculeaza astfel:
+  Notam:
+  OF = punctele din oficiu, in numar de 2;
+  S  = punctele la proba scrisa, in intervalul [0, 4], prin lipsa este 0;
+  P1 = punctele la proiectul din lectia II, in intervalul [0, 2], prin lipsa este 0;
+  P2 = punctele la proiectul din lectia III, in intervalul [0, 2], prin lipsa este 0;
+  F = nota finala, care se trece in catalog.
+  Regula de calcul a notei finale este:
+     F = rotunjire(OF + S + P1 + P2)
+   unde rotunjirea in sus se face de la pragul 0.5.
+  Conditia de promovare este: F >= 5.
+  Daca nota finala rezultata este < 4, in catalog se trece 4.
+  Daca lipsesc toate componentele S, P1, P2, in catalog se trece absenta.
+
+
+Compilatoare, CTI anul 3, laborator:
+====================================
+
+Continut laborator:
+ - implementarea unor algoritmi de limbaje formale (expresii regulate,
+  automate si translatori, gramatici) si teoria compilarii (analiza
+  lexicala, analiza sintactica, analiza semantica).
+
+Materiale didactice:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip', folderele:
+   'lf_s22feb2014' (limbaje formale), 'tc_l20feb2012' (teoria compilarii);
+ - folderul 'adaos/C';
+ - materiale suplimentare transmise pe parcursul semestrului.
+Atentie ca pe parcursul semestrului materialele pot fi actualizate
+ si se vor transmite versiunile actualizate.
+
+Notare:
+ - pentru laborator, trebuie rezolvate doua probleme (programe),
+  pentru care se vor obtine notele respectiv P1, P2; P1 si P2
+  sunt in intervalul [4, ..., 10], prin lipsa sunt 4; nota la
+  laborator este L = (P1 + P2) / 2; ponderea ei in nota finala si
+  conditia de promovare se vor comunica la curs;
+ - cele doua probleme sunt urmatoarele:
+  prima problema (nota P1) este implementarea unui analizor lexical
+    pentru un limbaj de programare uzual; notiuni necesare: expresii
+    regulate si automate finite deterministe; materiale didactice
+    relevante: '_tcidds26.pdf' si 'tmmlp2.txt' (din arhiva generala
+    cu lectii 'ddd_lectii_ma10feb2015.zip', folderele 'tc_l20feb2012/curs',
+    respectiv 'tc_l20feb2012');
+  a doua problema (nota P2) este implementarea unui algoritm de
+    limbaje formale, din fisierele 'lf_lab2b.txt' si 'lf_lab4.txt'
+    (aflate in arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+    folderul 'lf_s22feb2014/lectii'), sau a unui algoritm din teoria
+    compilarii, din fisierul 'tmmlp2.txt' mentionat mai devreme (dar
+    altul decat tema 1 - implementarea analizorul lexical).
+
+
+Compilatoare, ID anul 3:
+========================
+
+Continut disciplina:
+ - elemente de limbaje formale, etapele compilarii, analiza lexicala,
+  analiza sintactica, analiza semantica, generarea codului, optimizarea
+  codului, automatizarea generarii compilatoarelor (lex/flex, yacc/bison).
+
+Materiale didactice:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip', folderele:
+   'lf_s22feb2014' (limbaje formale), 'tc_l20feb2012' (teoria compilarii);
+ - folderul 'adaos/C';
+ - materiale suplimentare transmise pe parcursul semestrului.
+Atentie ca pe parcursul semestrului materialele pot fi actualizate
+ si se vor transmite versiunile actualizate.
+
+Notare:
+ - se da o proba scrisa, unde se obtine un punctaj S si se rezolva
+  doua probleme de laborator (programe), pentru care se vor obtine
+  respectiv punctajele P1, P2; se mai da un punctaj din oficiu OF;
+  aceste sarcini nu sunt toate obligatorii, prin lipsa punctajele
+  aferente au o valoare implicita, a se vedea mai jos;
+ - proba scrisa este cu materialele la vedere, dar numai in forma
+    scrisa, si se dau numai problme; pentru rezolvarea problemelor
+    va fi suficienta doar informatia din materialele scrise de mine
+    si cea din fisierele 'COMPILATOARE 08.pdf', 'COMPILATOARE 11.pdf',
+    'COMPILATOARE 12.pdf', aflate in folsedrul 'adaos/C';
+ - problemele de laborator sunt urmatoarele:
+  prima problema (punctajul P1) este implementarea unui analizor lexical
+    pentru un limbaj de programare uzual; limbajul este la alegerea
+    studentului dar trebuie implementat integral; notiuni necesare:
+    expresii regulate si automate finite deterministe; materiale didactice
+    relevante: '_tcidds26.pdf' si 'tmmlp2.txt' (din arhiva generala
+    cu lectii 'ddd_lectii_ma10feb2015.zip', folderele 'tc_l20feb2012/curs',
+    respectiv 'tc_l20feb2012');
+  a doua problema (punctajul P2) este implementarea unui algoritm de
+    limbaje formale, din fisierele 'lf_lab2b.txt' si 'lf_lab4.txt'
+    (aflate in arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+    folderul 'lf_s22feb2014/lectii'), sau a unui algoritm din teoria
+    compilarii, din fisierul 'tmmlp2.txt' mentionat mai devreme (dar
+    altul decat tema 1 - implementarea analizorul lexical).
+ - nota finala se calculeaza astfel:
+  Notam:
+  OF = punctele din oficiu, in numar de 2;
+  S  = punctele la proba scrisa, in intervalul [0, 4], prin lipsa este 0;
+  P1 = punctele la prima problema, in intervalul [0, 2], prin lipsa este 0;
+  P2 = punctele la a doua problema, in intervalul [0, 2], prin lipsa este 0;
+  F = nota finala, care se trece in catalog.
+  Conditia de promovare este: OF + S + P1 + P2 >= 5.
+  Regula de calcul a notei finale este:
+     F = rotunjire(OF + S + P1 + P2)
+   unde rotunjirea in sus se face de la pragul 0.5.
+  Daca nota finala rezultata este < 4, in catalog se trece 4.
+  Daca lipsesc toate componentele S, P1, P2, in catalog se trece absenta.
+
+
+Sistemul de operare Linux (SOL), curs optional anii terminali CTI si ID:
+========================================================================
+
+Continut disciplina:
+- generalitati despre sistemul de operare Linux, instalare, administrare,
+ distributii Linux;
+- concepte ale sistemului Linux: utilizatori si grupuri, fisiere si
+ directoare, gestiunea memoriei, procese si threaduri, instrumente de
+ comunicare si sincronizare intre procese si threaduri;
+- interfata de operare (comenzi shell) si programare (apeluri sistem),
+ programarea scripturilor shell;
+- utilizarea avansata a compilatorului gcc, biblioteci statice si
+ dinamice, gestionarea proiectelor folosind utilitarul make si fisiere
+ Makefile, precum si sistemul de versionare git, depanarea programelor
+ folosind depanatorul gdb;
+- organizarea sistemului de operare Linux, compilarea nucleului,
+ implementarea modulelor, driverelor, apelurilor sistem;
+- sistemul X Window, programarea aplicatiilor X Window.
+Pentru examen, sunt cerute doar continuturile acoperite de materialele
+didactice scrise de mine, in varianta lor curenta (a se vedea mai jos).
+
+Materiale didactice principale:
+ - arhiva generala cu lectii 'ddd_lectii_ma10feb2015.zip',
+   folderul 'so_s18feb2012'; aici, sunt relevante mai ales
+   lectiile de laborator, programele demonstrative comentate si cursul
+   'soc6b.pdf' (pentru anexa referitoare la 'IPC');
+ - suportul pentru cursul de USO 'adaos/USO_SO_SOL/uso_j13ian2022.pdf';
+ - adaosul la cursul de SO 'adaos/USO_SO_SOL/so_adaos_d14ian2024.txt';
+ - suportul vechi (abandonat in starea de dezvoltare) pentru cursul de SOL
+   'adaos/USO_SO_SOL/vechi/DDD_linux_l16ian2017.txt';
+ - suportul curent pentru cursul si laboratorul de SOL, aflate in folderul
+   'adaos/USO_SO_SOL' - versiunile curente sunt 'DDD_SOL_l5mai2025.txt',
+   'lab1ddd.txt';
+ - capitolul de XWindow 'adaos/USO_SO_SOL/DDD_X_ma26apr2022.txt';
+ - lista de teme 'adaos/USO_SO_SOL/tsol3.txt'.
+Pe parcursul semestrului, mai pot fi transmise materiale suplimentare sau
+actualizari ale materialelor mentionate.
+
+Notare:
+- se obtine o nota la proba scrisa S si/sau o nota la laborator L;
+ S si L sunt in intervalul [4, ..., 10] si este obligatorie obtinerea a
+ cel putin uneia dintre ele, nu neaparat a ambelor; nota finala F se
+ obtine astfel:
+  daca exista doar S, atunci F = S;
+  daca exista doar L, atunci F = L;
+  daca exista S si L, atunci F = (S + L) / 2;
+ F este rotunjit in sus de la pragul 0.5 iar conditia de promovare
+ este F >= 5.
+- proba scrisa este cu materialele la vedere, dar numai in forma
+ scrisa, si se dau numai problme; pentru rezolvarea problemelor va fi
+ suficienta doar informatia din materialele scrise de mine;
+- pentru nota la laborator trebuie rezolvate doua probleme (programe) din
+ lista 'adaos/USO_SO_SOL/tsol3.txt';
+  o problema trebuie sa fie din sectiunea 1 ('Concepte si instrumente Linux')
+    si pentru ea se va obtine o nota P1;
+  o problema trebuie sa fie din sectiunea 2 ('Interfata XWindow'), si pentru
+    ea se va obtine o nota P2;
+ notele P1, P2 sunt in intervalul [4, ..., 10], nu este obligatoriu sa fie
+  prezentate ambele, notele Pi lipsa se considera 4;
+ nota la laborator este L = (P1 + P2) / 2.
+- o problema de laborator nu trebuie abordata de mai mult de
+      parte_intreaga_superioara (k / n)
+ studenti, unde n este numarul de probleme din sectiunea ei iar k este numarul
+ de studenti inscrisi la cursul de SOL; de aceea, studentii se vor inscrie la
+ problemele alese, in masura in care mai raman locuri libere, inainte de a
+ rezolva problemele respective;
+- studentii care au facut cu mine USO, SO sau disciplina 'Proiect' de la anul
+ III, au mai intalnit o parte dintre problemele de laborator la disciplinele
+ respective; ei nu trebuie sa aleaga probleme pe care le-au prezentat deja
+ atunci.
+
+
+Daniel Dragulici
